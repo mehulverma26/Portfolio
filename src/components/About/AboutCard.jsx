@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { SiPlaystation } from "react-icons/si";
+import { FaBook } from "react-icons/fa";
+import { MdModeOfTravel } from "react-icons/md";
 
 function AboutCard() {
   return (
@@ -10,20 +13,20 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mehul Verma </span>
             from <span className="purple"> Delhi, India.</span>
-            <br /> I am a final year student pursuing Bachelors of Computer Application (BCA)
-             at CHRIST (Deemed to be University).
+            <br /> I am a final year student pursuing Bachelors of Computer
+            Application (BCA) at CHRIST (Deemed to be University).
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Games <SiPlaystation />
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading Books
+              <ImPointRight /> Reading Books <FaBook />
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Travelling <MdModeOfTravel />
             </li>
           </ul>
 
