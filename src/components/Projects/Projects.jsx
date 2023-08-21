@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import leaf from "./Images/leaf.png";
 import technomatch23 from "./Images/technomatch23.png";
 import startup_page from "./Images/chrome_startup_page.png";
+import games from "./Images/games_made_using_python.png";
 
 function Projects() {
   return (
@@ -45,6 +46,16 @@ function Projects() {
               title="Technomatch23"
               description="This was used to create an AI based model that can predict weather by analysing the data and returning with predictions for the weather."
               ghLink="https://github.com/mehulverma26/technomatch23"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={games}
+              isBlog={false}
+              title="Games made using python"
+              description="These were a few games that I had created using Python, such as, blackjack, chess, tic tac toe, minesweeper, rps, snape game, etc."
+              ghLink="https://github.com/mehulverma26/games-using-python"
             />
           </Col>
         </Row>
