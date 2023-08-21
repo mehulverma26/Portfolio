@@ -11,22 +11,22 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <a href="https://www.microsoft.com/en-us/windows?r=1">
+        <a href="https://www.microsoft.com/en-us/windows?r=1" target="_blank">
           <SiWindows />
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a href="https://code.visualstudio.com/">
+        <a href="https://code.visualstudio.com/" target="_blank">
           <SiVisualstudiocode />
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a href="https://www.kali.org/">
+        <a href="https://www.kali.org/" target="_blank">
           <SiKalilinux />
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a href="https://www.eclipse.org/downloads/">
+        <a href="https://www.eclipse.org/downloads/" target="_blank">
           <SiEclipseide />
         </a>
       </Col>
