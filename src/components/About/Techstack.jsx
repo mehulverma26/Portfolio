@@ -34,14 +34,8 @@ function Techstack() {
           <DiNodejs />
         </a>
       </Col>
-      <Col
-        xs={4}
-        md={2}
-        className="tech-icons"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <a href="https://docs.npmjs.com/">
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://docs.npmjs.com/" target="_blank" rel="noreferrer">
           <SiNpm />
         </a>
       </Col>
