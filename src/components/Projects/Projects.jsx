@@ -6,6 +6,7 @@ import leaf from "./Images/leaf.png";
 import technomatch23 from "./Images/technomatch23.png";
 import startup_page from "./Images/chrome_startup_page.png";
 import games from "./Images/games_made_using_python.png";
+import amazon from "./Images/amazon_clone.png";
 
 function Projects() {
   return (
@@ -56,6 +57,16 @@ function Projects() {
               title="Games made using python"
               description="These were a few games that I had created using Python, such as, blackjack, chess, tic tac toe, minesweeper, rps, snape game, etc."
               ghLink="https://github.com/mehulverma26/games-using-python"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amazon}
+              isBlog={false}
+              title="Amazon Clone"
+              description="This project is based on e-commerce websites. It is fully responsive design, has cart functionality, product pages, delivery notifications, Payment handler using “Stripe”, Order History, Email auth., lazy loading, product review system. Technologies used in this website are - Html, Css, Javascript, React.Js, React Router, React Context Api, Scss, Firebase, Stripe, Heroku(backend for stripe). This website also qualifies as a PWA."
+              ghLink="https://github.com/mehulverma26/Amazon-Clone"
             />
           </Col>
         </Row>
