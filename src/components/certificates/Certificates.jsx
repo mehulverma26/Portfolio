@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
+import ProjectCard from "./CertificateCards";
 import Particle from "../Particle";
 import leaf from "./Images/leaf.png";
 import emotion from "./Images/emotion.png";
