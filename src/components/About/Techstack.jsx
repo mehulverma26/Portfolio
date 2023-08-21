@@ -16,70 +16,69 @@ import {
   SiCss3,
   SiPhp,
 } from "react-icons/si";
-import { Link } from "react-router-dom";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://devdocs.io/javascript/">
+        <a href="https://devdocs.io/javascript/">
           <DiJavascript1 />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://nodejs.org/en/docs">
+        <a href="https://nodejs.org/en/docs">
           <DiNodejs />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://docs.npmjs.com/">
+        <a href="https://docs.npmjs.com/">
           <SiNpm />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://react.dev/reference/react">
+        <a href="https://react.dev/reference/react">
           <DiReact />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://git-scm.com/doc">
+        <a href="https://git-scm.com/doc">
           <DiGit />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://firebase.google.com/docs">
+        <a href="https://firebase.google.com/docs">
           <SiFirebase />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://www.python.org/doc/">
+        <a href="https://www.python.org/doc/">
           <DiPython />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://docs.oracle.com/en/java/">
+        <a href="https://docs.oracle.com/en/java/">
           <DiJava />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://jinja.palletsprojects.com/en/3.1.x/">
+        <a href="https://jinja.palletsprojects.com/en/3.1.x/">
           <SiJinja />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
           <SiHtml5 />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
           <SiCss3 />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://www.php.net/docs.php">
+        <a href="https://www.php.net/docs.php">
           <SiPhp />
-        </Link>
+        </a>
       </Col>
     </Row>
   );

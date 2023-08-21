@@ -6,30 +6,29 @@ import {
   SiWindows,
   SiEclipseide,
 } from "react-icons/si";
-import { Link } from "react-router-dom";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://www.microsoft.com/en-us/windows?r=1">
+        <a href="https://www.microsoft.com/en-us/windows?r=1">
           <SiWindows />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://code.visualstudio.com/">
+        <a href="https://code.visualstudio.com/">
           <SiVisualstudiocode />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://www.kali.org/">
+        <a href="https://www.kali.org/">
           <SiKalilinux />
-        </Link>
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Link to="https://www.eclipse.org/downloads/">
+        <a href="https://www.eclipse.org/downloads/">
           <SiEclipseide />
-        </Link>
+        </a>
       </Col>
     </Row>
   );
