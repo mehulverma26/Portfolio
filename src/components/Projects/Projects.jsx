@@ -7,6 +7,7 @@ import technomatch23 from "./Images/technomatch23.png";
 import startup_page from "./Images/chrome_startup_page.png";
 import games from "./Images/games_made_using_python.png";
 import amazon from "./Images/amazon_clone.png";
+import portfolio from "./Images/portfolio.png";
 
 function Projects() {
   return (
@@ -67,6 +68,16 @@ function Projects() {
               title="Amazon Clone"
               description="This project is based on e-commerce websites. It is fully responsive design, has cart functionality, product pages, delivery notifications, Payment handler using “Stripe”, Order History, Email auth., lazy loading, product review system. Technologies used in this website are - Html, Css, Javascript, React.Js, React Router, React Context Api, Scss, Firebase, Stripe, Heroku(backend for stripe). This website also qualifies as a PWA."
               ghLink="https://github.com/mehulverma26/Amazon-Clone"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Portfolio Website"
+              description="Discover my digital portfolio repository. Explore a captivating array of projects, from responsive websites to innovative UI/UX designs. A platform that offers inspiration and insight into a visionary digital artist shaping the virtual landscape."
+              ghLink="https://github.com/mehulverma26/portfolio"
             />
           </Col>
         </Row>
