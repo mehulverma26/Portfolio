@@ -20,7 +20,10 @@ function Home2() {
               <br />
               <br />I am fluent in
               <i>
-                <b className="purple"> Python, HTML, CSS and Java</b>
+                <b className="purple">
+                  {" "}
+                  Python, Java, HTML, CSS and JavaScript
+                </b>
               </i>
               <br />
               <br />
