@@ -36,7 +36,7 @@ function Particle() {
         interactivity: {
           events: {
             onclick: {
-              enable: false,
+              enable: true,
               mode: "push",
             },
           },
