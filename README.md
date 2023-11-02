@@ -8,7 +8,7 @@ This is my portfolio website that can be forked or cloned as well.
 
 ## Built With
 
-My personal portfolio <a href=null target="_blank">Mehul Vemra</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio of <a href=https://mehulverma.netlify.app/ target="_blank">Mehul Verma</a>, features some of my GitHub projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
