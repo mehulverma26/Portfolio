@@ -15,14 +15,35 @@ function AboutCard() {
             from <span className="purple"> Delhi, India.</span>
             <br /> I am persuing
             <span className="purple"> MSc in Computing</span> with my majors in
-            <span className="purple"> AI</span>. I did my Bachelors in{" "}
+            <span className="purple"> AI</span> from{" "}
+            <span className="purple">
+              {" "}
+              <a
+                href="https://www.dcu.ie/"
+                className="purple"
+                style={{ textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Dublin City University (DCU), Ireland
+              </a>
+            </span>
+            . I did my Bachelors in{" "}
             <span className="purple">
               Bachelors of Computer Application (BCA)
             </span>{" "}
             from{" "}
             <span className="purple">
               {" "}
-              CHRIST (Deemed to be University), India.
+              <a
+                href="https://www.christuniversity.in/"
+                className="purple"
+                style={{ textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                CHRIST (Deemed to be University), India.
+              </a>
             </span>
             <br />
             Apart from coding, some other activities that I love to do!
