@@ -13,8 +13,17 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mehul Verma </span>
             from <span className="purple"> Delhi, India.</span>
-            <br /> I am a final year student pursuing Bachelors of Computer
-            Application (BCA) at CHRIST (Deemed to be University).
+            <br /> I am persuing
+            <span className="purple"> MSc in Computing</span> with my majors in
+            <span className="purple"> AI</span>. I did my Bachelors in{" "}
+            <span className="purple">
+              Bachelors of Computer Application (BCA)
+            </span>{" "}
+            from{" "}
+            <span className="purple">
+              {" "}
+              CHRIST (Deemed to be University), India.
+            </span>
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
