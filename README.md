@@ -1,39 +1,18 @@
-<h2 align="center">
-Portfolio Website<br/>
-</h2>
-<div align="center">
-This is my portfolio website that can be forked or cloned as well.
-</div>
-<br/>
+# React + Vite
 
-## Built With
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-My personal portfolio of <a href=https://mehulverma.netlify.app/ target="_blank">Mehul Verma</a>, features some of my GitHub projects as well as my resume and technical skills.<br/>
+Currently, two official plugins are available:
 
-This project was built using these technologies.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Netlify
+## React Compiler
 
-## Getting Started
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Note: This will impact Vite dev & build performances.
 
-## 🛠 Installation and Setup Instructions
+## Expanding the ESLint configuration
 
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

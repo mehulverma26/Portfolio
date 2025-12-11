@@ -1,11 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiKalilinux,
-  SiWindows,
-  SiEclipseide,
-} from "react-icons/si";
+import { SiKalilinux, SiEclipseide } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
+import { FaWindows } from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -16,7 +13,7 @@ function Toolstack() {
           target="_blank"
           rel="noreferrer"
         >
-          <SiWindows />
+          <FaWindows />
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -25,7 +22,7 @@ function Toolstack() {
           target="_blank"
           rel="noreferrer"
         >
-          <SiVisualstudiocode />
+          <VscVscode />
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
